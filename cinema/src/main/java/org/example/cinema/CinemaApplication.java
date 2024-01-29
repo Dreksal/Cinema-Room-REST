@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CinemaApplication {
 
     public static void main(String[] args) {
-        Cinema.getInstance();
+        //Cinema.getInstance();
         SpringApplication.run(CinemaApplication.class, args);
     }
 }

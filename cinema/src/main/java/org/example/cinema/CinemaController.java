@@ -10,10 +10,6 @@ import java.util.Map;
 
 @RestController
 public class CinemaController {
-/*TODO: Dodac mozliwosc podgladania statystyk, a w nich maja byc pdoliczone takie info jak:
-   sumahajsowzarobionych, ile biletow sprzedano i ile miejsc zostalo wolnych
- */
-
 
     @GetMapping("/seats")
     public Cinema getCinemaInfo() {
@@ -44,7 +40,6 @@ public class CinemaController {
         return ResponseEntity.ok().body(new ResponseCustomMessage(seat));
     }
 
-    //TODO: dostep do statystyk ma byc tylko jesli jako "key" bedzie "password" a jako "value" ma byc "super_secret"
     @GetMapping("/stats")
     public ResponseEntity<?> showStats(@RequestParam(required = false) String password) {
         if(password != null && password.equals("super_secret")) {
