@@ -1,6 +1,6 @@
 # Cinema-Room-REST
 ## About project
-This is a project from hyperskill.org. It's about simulating RESTful service which handles some HTTP requests in controllers, creates services, and responds with JSON objects.
+This is a project idea from hyperskill.org. It's about simulating RESTful service which handles some HTTP requests in controllers, creates services, and responds with JSON objects. All rights reserved.
 
 ## How it works?
 When you are running this program, you can use POSTMAN app to send some requests (GET, POST) to this app. It has some endpoints, such as:
@@ -14,7 +14,11 @@ When you are running this program, you can use POSTMAN app to send some requests
 ![stats example](img/stats.png)
 
 ## How to install?
-1. do something
-2. do something
-3. do something
+1. Make sure that you have JAVA installed on your computer.
+2. Download "toDownload.jar" file.
+3. Go to directory, where you've installed this .jar file.
+4. Open Terminal in that directory.
+5. Type "java -jar toDownload.jar" in the command line. Your program is running.
+6. Open your POSTMAN app or web browser and type: http://localhost:8080/seats
+7. Enjoy!
 
