@@ -10,11 +10,11 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public final class Cinema {
-    private static volatile Cinema instance;    //tworzymy tylko jedna instancje tej klasy (tzw. Singleton)
+    private static volatile Cinema instance;
 
     private final int rows = 9;
     private final int columns = 9;
-    private CopyOnWriteArrayList<Seats> seats;          //odpowiednik ArrayList ale thread-safe :) maja byc tu tylko wolne miejsca
+    private CopyOnWriteArrayList<Seats> seats;                  //thread safety collections
 
 
     @JsonIgnore
@@ -37,7 +37,7 @@ public final class Cinema {
     }
 
     public static Cinema getInstance() {
-        Cinema result = instance;                   // zastosowanie double-checked locking (DCL)
+        Cinema result = instance;                   //double-checked locking (DCL)
         if (result != null) {
             return result;
         }

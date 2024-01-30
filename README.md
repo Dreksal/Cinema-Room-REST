@@ -1,6 +1,6 @@
 # Cinema-Room-REST
 ## About project
-This is a project idea from hyperskill.org. It's about simulating RESTful service which handles some HTTP requests in controllers, creates services, and responds with JSON objects. All rights reserved.
+The idea of this project is from [hyperskill.org](https://hyperskill.org/projects/189?track=12). It is about simulating RESTful service which handles some HTTP requests in controllers, creates services, and responds with JSON objects. All rights reserved.
 
 ## How it works?
 When you are running this program, you can use POSTMAN app to send some requests (GET, POST) to this app. It has some endpoints, such as:

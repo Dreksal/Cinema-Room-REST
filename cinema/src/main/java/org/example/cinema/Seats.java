@@ -7,7 +7,6 @@ public class Seats {
     private int column;
     private int price;
 
-    //porownywanie rzedow i kolumn, jesli obie wartosci sie zgadzaja to miejsca sa rowne
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
